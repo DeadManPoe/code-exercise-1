@@ -1,0 +1,25 @@
+.pokemon_item {
+  border: 1px solid #bbb;
+  padding: 1rem;
+  position: relative;
+
+  &__star {
+    width: 24px;
+    height: 24px;
+    stroke-width: 5;
+    stroke: #bbb;
+
+    &--active {
+      stroke: yellow;
+      fill: yellow;
+    }
+  }
+  &__star_btn {
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+    outline: none;
+    border: none;
+    background: none;
+  }
+}
